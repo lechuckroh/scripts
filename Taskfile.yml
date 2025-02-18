@@ -1,0 +1,10 @@
+version: 3
+
+tasks:
+  install:
+    cmds:
+      - go mode vendor
+
+  list-lambda:
+    cmds:
+      - go run cmd/list-lambda/main.go
